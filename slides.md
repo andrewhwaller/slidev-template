@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://upload.wikimedia.org/wikipedia/commons/7/74/The_Vision_of_The_Valley_of_The_Dry_Bones.jpg
+background: ../images/valley_of_dry_bones.jpg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -23,9 +23,9 @@ fonts:
   provider: google
 ---
 
-# Title
+# Understanding the Old Testament
 
-## Subtitle
+## The House of David and the Resurrection of Israel
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
