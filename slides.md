@@ -1,5 +1,6 @@
 ---
 theme: default
+favicon: /favicon.ico
 background: https://upload.wikimedia.org/wikipedia/commons/7/74/The_Vision_of_The_Valley_of_The_Dry_Bones.jpg
 class: text-center
 lineNumbers: false
