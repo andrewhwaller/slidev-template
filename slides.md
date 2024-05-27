@@ -117,3 +117,19 @@ backgroundSize: contain
 work: The Vision of The Valley of The Dry Bones
 metadata: "Gustave Doré, 1866"
 ---
+
+---
+layout: statement
+---
+
+# Ezekiel 37: Israel is in need of *resurrection*.
+
+---
+layout: quote
+---
+
+# Acts 1:6–9
+So when they had come together, they asked him, “Lord, will you at this time restore the kingdom to Israel?”
+He said to them, “It is not for you to know times or seasons that the Father has fixed by his own authority.
+But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.”
+And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight.
