@@ -18,8 +18,7 @@ mdc: true
 download: true
 export:
   format: pdf
-  dark: true
-  notes: true
+  withNotes: true
 fonts:
   sans: EB Garamond
   serif: EB Garamond
