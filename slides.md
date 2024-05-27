@@ -5,7 +5,7 @@ background: https://upload.wikimedia.org/wikipedia/commons/7/74/The_Vision_of_Th
 class: text-center
 lineNumbers: false
 info: |
-  ## Presentation by Andrew H. Waller
+  # Presentation by Andrew H. Waller
 
   Learn more at [Lukan Priorities](https://lukanpriorities.com)
 author: Andrew H. Waller
@@ -16,6 +16,10 @@ transition: slide-left
 title: Slidev Template
 mdc: true
 download: true
+export:
+  format: pdf
+  dark: true
+  notes: true
 fonts:
   sans: EB Garamond
   serif: EB Garamond
