@@ -1,6 +1,6 @@
 ---
 theme: default
-background: ../images/valley_of_dry_bones.jpg
+background: /valley_of_dry_bones.jpg
 class: text-center
 lineNumbers: false
 info: |
@@ -111,7 +111,7 @@ layout: statement
 
 ---
 layout: gallery-frame
-image: ../images/valley_of_dry_bones.jpg
+image: /valley_of_dry_bones.jpg
 backgroundSize: contain
 work: The Vision of The Valley of The Dry Bones
 metadata: "Gustave Doré, 1866"
