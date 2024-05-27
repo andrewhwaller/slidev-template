@@ -13,7 +13,7 @@ presenter: true
 drawings:
   persist: false
 transition: slide-left
-title: Slidev Template
+title: Understanding the Old Testament - The House of David and the Resurrection of Israel
 mdc: true
 download: true
 export:
