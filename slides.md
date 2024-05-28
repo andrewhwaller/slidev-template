@@ -13,7 +13,7 @@ presenter: true
 drawings:
   persist: false
 transition: slide-left
-title: Understanding the Old Testament - The House of David and the Resurrection of Israel
+title: Title - Subtitle
 mdc: true
 download: true
 export:
@@ -26,26 +26,12 @@ fonts:
   provider: google
 ---
 
-# Understanding the Old Testament
+# Title
 
-## The House of David and the Resurrection of Israel
+## Subtitle
 
----
-layout: statement
----
+<!-- This is only a sample of different slide layouts and does not contain the full content for this lecture. -->
 
-# What was Israel's messiah meant to do?
-
----
-layout: quote
----
-
-# Acts 1:6–9
-So when they had come together, they asked him, “Lord, will you at this time restore the kingdom to Israel?” He said to them, “It is not for you to know times or seasons that the Father has fixed by his own authority. But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.” And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight.
-
-<!--
-Here are the notes.
--->
 ---
 layout: statement
 ---
@@ -63,17 +49,6 @@ layout: statement
 layout: quote
 ---
 
-# Deut 28:58–68
-“If you are not careful to do all the words of this law that are written in this book… then the Lord will bring on you and your offspring extraordinary afflictions, afflictions severe and lasting, and sicknesses grievous and lasting.
-And he will bring upon you again all the diseases of Egypt… until you are destroyed.
-Whereas you were as numerous as the stars of heaven, you shall be left few in number, because you did not obey the voice of the Lord your God….
-And the Lord will scatter you among all peoples, from one end of the earth to the other, and there you shall serve other gods of wood and stone, which neither you nor your fathers have known….
-And the Lord will bring you back in ships to Egypt, a journey that I promised that you should never make again; and there you shall offer yourselves for sale to your enemies as male and female slaves, but there will be no buyer.”
-
----
-layout: quote
----
-
 # 2 Sam 7:5–16
 “Go and tell my servant David, ‘Thus says the Lord: … When your days are fulfilled and you lie down with your fathers, I will raise up your offspring after you, who shall come from your body, and I will establish his kingdom….
 And your house and your kingdom shall be made sure forever before me.
@@ -84,17 +59,6 @@ Your throne shall be established forever.’”
 If his children forsake my law… then I will punish their transgression with the rod and their iniquity with stripes, but I will not remove from him my steadfast love or be false to my faithfulness.
 I will not violate my covenant or alter the word that went forth from my lips.
 Once for all I have sworn by my holiness; I will not lie to David.”
-
----
-layout: quote
----
-
-# Isa 10:33–11:2
-Behold, the Lord God of hosts will lop the boughs with terrifying power; the great in height will be hewn down, and the lofty will be brought low.
-He will cut down the thickets of the forest with an axe, and Lebanon will fall by the Majestic One. 
-
-There shall come forth a shoot from the stump of Jesse, and a branch from his roots shall bear fruit.
-And the Spirit of the Lord shall rest upon him, the Spirit of wisdom and understanding, the Spirit of counsel and might, the Spirit of knowledge and the fear of the Lord.
 
 ---
 layout: quote
@@ -130,11 +94,3 @@ layout: statement
 # Ezekiel 37: Israel is in need of *resurrection*.
 
 ---
-layout: quote
----
-
-# Acts 1:6–9
-So when they had come together, they asked him, “Lord, will you at this time restore the kingdom to Israel?”
-He said to them, “It is not for you to know times or seasons that the Father has fixed by his own authority.
-But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.”
-And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight.
