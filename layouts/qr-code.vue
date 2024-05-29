@@ -2,7 +2,7 @@
 import { computed } from "vue";
 import QRious  from "qrious";
 
-const url = window.location.href.substring(0, window.location.href.length - 1);
+const url = window.location.href.replace(/\/[^\/]*$/, "/");
 
 const qrcode = computed(() => {
   return new QRious({
