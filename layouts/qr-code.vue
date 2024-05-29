@@ -1,8 +1,13 @@
 <script setup lang="ts">
 import { computed } from "vue";
+import { useRouter } from "vue-router";
 import QRious  from "qrious";
 
-const url = `${window.location.host}/`;
+const router = useRouter();
+const route = router.resolve({
+  path: "/",
+})
+const url = window.location.origin + route.href;
 
 const qrcode = computed(() => {
   return new QRious({
