@@ -94,3 +94,7 @@ layout: statement
 # Ezekiel 37: Israel is in need of *resurrection*.
 
 ---
+layout: qr-code
+---
+# QR code for this presentation
+---
