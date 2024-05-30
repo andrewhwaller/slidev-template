@@ -2,7 +2,7 @@
 import { computed, onMounted } from "vue";
 import QRCodeStyling from "qr-code-styling";
 
-const url = window.location.href.replace(/\/presenter|\/[^\/]*$/, "/");
+const url = window.location.href.replace(/\/presenter|\/[^\/]*$/, "").replace(/\/[^\/]*$/, "/");
 
 const qrcode = computed(() => {
   return new QRCodeStyling({
