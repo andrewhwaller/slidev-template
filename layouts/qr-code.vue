@@ -10,6 +10,7 @@ const qrcode = computed(() => {
     height: 300,
     type: "svg",
     data: url,
+    image: "luke.jpeg",
     dotsOptions: {
       color: "#000000",
       type: "classy-rounded",
