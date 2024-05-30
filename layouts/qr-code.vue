@@ -1,15 +1,33 @@
 <script setup lang="ts">
-import { computed, onMounted } from "vue";
+import { computed, onMounted, ref } from "vue";
 import QRCodeStyling from "qr-code-styling";
 
-const url = window.location.href.replace(/\/presenter|\/[^\/]*$/, "").replace(/\/[^\/]*$/, "/");
+function getNormalizedURL() {
+  const url = window.location.href;
+  const urlSegments = url.split('/');
+
+  if (url.includes('/presenter/')) {
+    const presenterIndex = urlSegments.indexOf('presenter');
+    urlSegments.splice(presenterIndex, 1);
+  }
+
+  const lastSegment = urlSegments[urlSegments.length - 1];
+
+  if (!isNaN(lastSegment)) {
+    urlSegments[urlSegments.length - 1] = '1'; // Set the slide number to 1
+  } else {
+    urlSegments.push('1'); // Add '1' as the first slide if no slide number is present
+  }
+
+  return urlSegments.join('/');
+}
 
 const qrcode = computed(() => {
   return new QRCodeStyling({
     width: 300,
     height: 300,
     type: "svg",
-    data: url,
+    data: getNormalizedURL(),
     dotsOptions: {
       color: "#000000",
       type: "classy-rounded",
@@ -20,9 +38,10 @@ const qrcode = computed(() => {
   })
 });
 
+const qrContainer = ref();
+
 onMounted(() => {
-  document.getElementById("qrContainer").innerHTML = "";
-  qrcode.value.append(document.getElementById("qrContainer"));
+  qrcode.value.append(qrContainer.value);
 });
 </script>
 
@@ -30,7 +49,7 @@ onMounted(() => {
   <div class="slidev-layout qrcode text-center">
     <slot />
     <div class="container mx-auto mt-8 flex">
-      <div id="qrContainer" class="mx-auto"></div>
+      <div ref="qrContainer" class="mx-auto"></div>
     </div>
   </div>
 </template>
