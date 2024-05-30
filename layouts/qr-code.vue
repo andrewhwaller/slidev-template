@@ -10,7 +10,7 @@ const qrcode = computed(() => {
     height: 300,
     type: "svg",
     data: url,
-    image: "luke.jpeg",
+    image: "/luke.jpeg",
     dotsOptions: {
       color: "#000000",
       type: "classy-rounded",
@@ -42,10 +42,6 @@ onMounted(() => {
 
 <style>
 #qrContainer > svg {
-  @apply rounded-lg;
-}
-
-#qrContainer > svg > image {
   @apply rounded-lg;
 }
 </style>
