@@ -42,6 +42,6 @@ onMounted(() => {
 
 <style>
 #qrContainer > svg {
-  @apply rounded-lg;
+  @apply rounded-md;
 }
-</style>
+</style
