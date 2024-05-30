@@ -3,7 +3,6 @@ import { computed, onMounted } from "vue";
 import QRCodeStyling from "qr-code-styling";
 
 const url = window.location.href.replace(/\/[^\/]*$/, "/");
-const imageUrl = url + "luke.jpeg";
 
 const qrcode = computed(() => {
   return new QRCodeStyling({
@@ -11,17 +10,12 @@ const qrcode = computed(() => {
     height: 300,
     type: "svg",
     data: url,
-    image: imageUrl,
     dotsOptions: {
       color: "#000000",
       type: "classy-rounded",
     },
     backgroundOptions: {
       color: "#ffffff",
-    },
-    imageOptions: {
-      margin: 10,
-      imageSize: 0.5,
     },
   })
 });
@@ -40,9 +34,3 @@ onMounted(() => {
     </div>
   </div>
 </template>
-
-<style>
-#qrContainer > svg {
-  @apply rounded-md;
-}
-</style
