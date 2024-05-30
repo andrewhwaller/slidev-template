@@ -12,7 +12,7 @@
     "@slidev/theme-apple-basic": "^0.20.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "qrious": "^4.0.2"
+    "qr-code-styling": "^1.6.0-rc.1"
   },
   "devDependencies": {
     "playwright-chromium": "^1.44.1"
