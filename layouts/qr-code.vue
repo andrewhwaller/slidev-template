@@ -57,5 +57,8 @@ onMounted(() => {
     <div class="container mx-auto mt-8 flex">
       <div ref="qrContainer" class="mx-auto"></div>
     </div>
+    <div class="text-center mt-5">
+      For more, visit <a href="https://slides.lukanpriorities.com" target="_blank" rel="noopener noreferrer">slides.lukanpriorities.com</a>.
+    </div>
   </div>
 </template>
