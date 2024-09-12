@@ -22,12 +22,18 @@ function getNormalizedURL() {
   return urlSegments.join('/');
 }
 
+const props = defineProps({
+  url: {
+    type: String,
+  }
+});
+
 const qrcode = computed(() => {
   return new QRCodeStyling({
     width: 300,
     height: 300,
     type: "svg",
-    data: getNormalizedURL(),
+    data: props.url ? props.url : getNormalizedURL(),
     dotsOptions: {
       color: "#000000",
       type: "classy-rounded",
