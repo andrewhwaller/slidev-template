@@ -68,6 +68,10 @@
   h1 {
     @apply text-5xl font-normal;
   }
+
+  div {
+    @apply flex flex-col items-center justify-center gap-y-4;
+  }
 }
 .slidev-layout.quote {
   @apply grid h-full;
